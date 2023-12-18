@@ -14,8 +14,8 @@ permissions:
 
 env:
   LW_ACCOUNT_NAME: ${{ secrets.LW_INT_ACCOUNT_NAME }}
-  LW_API_KEY: ${{ secrets.INT_LW_API_KEY }}
-  LW_API_SECRET: ${{ secrets.INT_LW_API_SECRET }}
+  LW_API_KEY: ${{ secrets.LW_INT_API_KEY }}
+  LW_API_SECRET: ${{ secrets.LW_INT_API_SECRET }}
 
 name: Lacework Code Analysis (PR)
 jobs:
